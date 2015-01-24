@@ -1,21 +1,26 @@
 #header {
-	margin-right: auto
+	margin: auto
 	position: relative;
-	padding:10px 10px 10px 10px;
+	padding:12px 20% 19px 15%;
 	top: -10px;
 	background-color: #3c4543;
 	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	text-align:center;
+	border-top-right-radius: 80%;
+	text-align:left;
 	font-size:2em;
 	font-family:cursive;
+	box-shadow: rgba(0,0,0,0.2) 8px 8px;
+}
+#header h1{
+	text-shadow:8px 8px rgba(0,0,0,0.2)
 }
 
 #logo{
-	top:1%;
+	top:1.5%;
 	left:1%;
-	position:relative;
+	height:185px;
 	float:left;
-	box-shadow: rgba(0,0,0,0.2) 6px 6px;
-	border-radius:15px;
+	position: fixed;
+	box-shadow: rgba(0,0,0,0.2) 8px 8px;
+	border-radius:10%;
 }
