@@ -2,7 +2,7 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
         <title>PremexumPandorum</title>
 
     </head>
@@ -10,25 +10,32 @@
 
 		<div id="header">
 			<h1>PremexumPandorum</h1>
-		</div>
-		<div>
-			<img id="logo" src="https://raw.githubusercontent.com/PremexumPandorum/home/c249d097bac5ce899a8fc6254611f91454bfc81f/img/logo.png">
-		</div>
-
-		<div>
 			<div>
-				<div>
-					<div>
-						<ul>
-							<li>About Us</li>
-							<li>Members</li>
-							<li>Mods</li>
-							<li></li>
-						</ul>
-					</div>
-				</div>
+				<img id="logo" src="https://raw.githubusercontent.com/PremexumPandorum/home/c249d097bac5ce899a8fc6254611f91454bfc81f/img/logo.png">
 			</div>
-       	</div>
-
+		</div>
+		<div class="container">
+			<ul class="menu">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle"><div id="menu-box">Menu</div></a>
+					<ul class="dropdown-menu">
+						<li id="dropdown">
+							<a href="#" class="dropdown-toggle-member">Members</a>
+							<ul class="dropdown-members">
+								<li><a href="http://r3ap3rg.github.io/">R3ap3rG</a></li>
+								<li><a href="#">Test 2</a></li>
+								<li><a href="#">Test 3</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Mods</a></li>
+						<li><a href="#">Contact Us</a> </li>
+					</ul>
+				</li>
+			</ul>
+		</div>
     </body>
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 </html>

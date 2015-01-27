@@ -7,20 +7,75 @@
 	border-top-left-radius: 15px;
 	border-top-right-radius: 80%;
 	text-align:left;
-	font-size:2em;
-	font-family:cursive;
-	box-shadow: rgba(0,0,0,0.2) 8px 8px;
+
 }
 #header h1{
-	text-shadow:8px 8px rgba(0,0,0,0.2)
+	font-size:7em;
+	color: #909090;
+	font-family:cursive;
+	font-weight:bold;
+	text-shadow:5px 5px rgba(0,0,0,0.2)
 }
 
 #logo{
 	top:1.5%;
 	left:1%;
-	height:185px;
+	height:130px;
 	float:left;
 	position: fixed;
 	box-shadow: rgba(0,0,0,0.2) 8px 8px;
 	border-radius:10%;
+}
+.container {
+	  float:left;
+}
+
+.menu {
+	float: left;
+	margin-left:-50px;
+	list-style: none;
+	margin-top: 5px;
+	display:inline;
+}
+#menu-box{
+	height:30px;
+	width:60px;
+	background-color: #33CCFF;
+	text-align:center;
+	border-radius:10px;
+}
+.menu > li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.menu a {
+	color: white;
+	font-size:20px;
+}
+#dropdown{
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	display:inline;
+}
+.dropdown-menu {
+	font-size: 16px;
+	margin-top: 5px;
+	min-width: 105px;
+}
+
+.dropdown-menu li a {
+	color: white;
+	padding: 6px 20px;
+	font-weight: 300;
+}
+.dropdown-members{
+	list-style: none;
+	display:inline;
+}
+.dropdown-members li a {
+	list-style: none;
+	color: black;
+	padding: 6px 20px;
+	font-weight: 300;
 }
