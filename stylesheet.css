@@ -1,3 +1,7 @@
+body{
+	background-image:url("http://freetopwallpaper.com/wp-content/gallery/future/the-future-wallpaper-hd-180.jpg");
+	background-size: cover;
+}
 #header {
 	margin: auto
 	position: relative;
