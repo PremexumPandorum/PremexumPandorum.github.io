@@ -16,8 +16,7 @@ body{
 #header h1{
 	font-size:7em;
 	color: #909090;
-	font-family:cursive;
-	font-weight:bold;
+	font-family:"Jacinto Sans", impact;
 	text-shadow:5px 5px rgba(0,0,0,0.2)
 }
 
