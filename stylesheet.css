@@ -4,7 +4,7 @@ body{
 	background-size: cover;
 }
 #header {
-	margin: auto
+	margin: auto;
 	position: relative;
 	padding:12px 20% 19px 15%;
 	top: -10px;
@@ -12,8 +12,8 @@ body{
 	border-top-left-radius: 15px;
 	border-top-right-radius: 80%;
 	text-align:left;
-
 }
+
 #header h1{
 	font-size:7em;
 	color: #909090;
@@ -44,7 +44,7 @@ body{
 #menu-box{
 	height:30px;
 	width:60px;
-	background-color: #33CCFF;
+	background-color: #0ab456;
 	text-align:center;
 	border-radius:10px;
 }
@@ -53,8 +53,7 @@ body{
 	padding-right: 20px;
 }
 .menu a {
-	color: white;
-	font-size:20px;
+		font-size:20px;
 }
 #dropdown{
 	float: left;
@@ -69,7 +68,6 @@ body{
 }
 
 .dropdown-menu li a {
-	color: white;
 	padding: 6px 20px;
 	font-weight: 300;
 }
@@ -79,7 +77,6 @@ body{
 }
 .dropdown-members li a {
 	list-style: none;
-	color: black;
 	padding: 6px 20px;
 	font-weight: 300;
 }
